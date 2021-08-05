@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STONE PAPER SCISSORS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <h2>STONE, PAPER, SCISSORS</h2>
+        <div class="rpgcont">
+            <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/34372-200.png" title="ROCK" onclick="startGame('rock')" />
+            <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/1476-200.png" title="PAPER" onclick="startGame('paper')" />
+            <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/9049-200.png" title="SCISSORS" onclick="startGame('scissors')" />
+        </div>
+        <p id="whowins">CHOOSE YOUR MOVE</p>
+        <div id="score">
+            <span class="sides">USER: 0</span>
+            <span class="sides">COMPUTER: 0</span>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
