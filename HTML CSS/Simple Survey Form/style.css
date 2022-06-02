@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Styling the Body element i.e. Color,
+        Font, Alignment */
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1619045119136-349759036541?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHVycGxlJTIwYWVzdGhldGljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Styling the Form (Color, Padding, Shadow) */
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    background: rgba( 241, 239, 239, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 5.5px);
+    -webkit-backdrop-filter: blur( 5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/* Styling form-control Class */
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+/* Styling form-control Label */
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* Styling form-control input,
+        select, textarea */
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+/* Styling form-control Radio
+        button and Checkbox */
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+/* Styling Button */
+
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

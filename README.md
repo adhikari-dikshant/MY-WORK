@@ -1,4 +1,0 @@
-# MY-WORK
-just for fun
-
-HERE I SPIT MY DUMP WHICH I LIKE, LOL JK
